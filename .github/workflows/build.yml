@@ -1,0 +1,13 @@
+name: Build C++
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile with g++
+        run: g++ food_court_optimizer.cpp -o optimizer -std=c++11 -Wall
+      - name: Build Success
+        run: echo "✅ Food Court Optimizer compiled successfully."

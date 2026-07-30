@@ -1,5 +1,9 @@
 # Food Court Queue Optimizer (C++) 🍔⏱️
 
+![Build Status](https://github.com/Aaditya0815/food-court-optimizer/actions/workflows/build.yml/badge.svg)
+![Language](https://img.shields.io/badge/language-C%2B%2B11-00599C?logo=c%2B%2B)
+![DSA](https://img.shields.io/badge/Data%20Structures-Greedy%20%7C%20Queue-3fb950)
+
 This project is a terminal-based Food Court Management Simulator written entirely in standard C++. It was developed as the capstone project for **UMT 404 — Data Structures & Algorithms** at Thapar Institute of Engineering & Technology.
 
 The system dynamically models customer queues across multiple distinct food stalls and implements a greedy algorithm to automatically balance customer load, minimizing total waiting time.
